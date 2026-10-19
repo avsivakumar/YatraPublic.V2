@@ -1,0 +1,645 @@
+[
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "minimum count",
+    "valid": true
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "name": "Customer 1",
+          "status": "Active",
+          "id": "C1"
+        }
+      ]
+    },
+    "name": "count 1",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "name": "Customer 1",
+          "status": "Active",
+          "id": "C1"
+        },
+        {
+          "name": "Customer 2",
+          "status": "Active",
+          "id": "C2"
+        },
+        {
+          "name": "Customer 3",
+          "status": "Active",
+          "id": "C3"
+        },
+        {
+          "name": "Customer 4",
+          "status": "Active",
+          "id": "C4"
+        },
+        {
+          "name": "Customer 5",
+          "status": "Active",
+          "id": "C5"
+        },
+        {
+          "name": "Customer 6",
+          "status": "Active",
+          "id": "C6"
+        },
+        {
+          "name": "Customer 7",
+          "status": "Active",
+          "id": "C7"
+        },
+        {
+          "name": "Customer 8",
+          "status": "Active",
+          "id": "C8"
+        },
+        {
+          "name": "Customer 9",
+          "status": "Active",
+          "id": "C9"
+        },
+        {
+          "name": "Customer 10",
+          "status": "Active",
+          "id": "C10"
+        }
+      ]
+    },
+    "name": "count 10",
+    "valid": true
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "name": "Customer 1",
+          "status": "Active",
+          "id": "C1"
+        },
+        {
+          "name": "Customer 2",
+          "status": "Active",
+          "id": "C2"
+        },
+        {
+          "name": "Customer 3",
+          "status": "Active",
+          "id": "C3"
+        },
+        {
+          "name": "Customer 4",
+          "status": "Active",
+          "id": "C4"
+        },
+        {
+          "name": "Customer 5",
+          "status": "Active",
+          "id": "C5"
+        },
+        {
+          "name": "Customer 6",
+          "status": "Active",
+          "id": "C6"
+        },
+        {
+          "name": "Customer 7",
+          "status": "Active",
+          "id": "C7"
+        },
+        {
+          "name": "Customer 8",
+          "status": "Active",
+          "id": "C8"
+        },
+        {
+          "name": "Customer 9",
+          "status": "Active",
+          "id": "C9"
+        },
+        {
+          "name": "Customer 10",
+          "status": "Active",
+          "id": "C10"
+        },
+        {
+          "name": "Customer 11",
+          "status": "Active",
+          "id": "C11"
+        }
+      ]
+    },
+    "name": "count 11",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "id length 100",
+    "valid": true
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "id length 101",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": null,
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "id null",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "name length 200",
+    "valid": true
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "name length 201",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": null,
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "name null",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "status length 100",
+    "valid": true
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "status length 101",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": null,
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "status null",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "location length 200",
+    "valid": true
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "location length 201",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": null,
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "location null",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "summary length 1000",
+    "valid": true
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "summary length 1001",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": null
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "summary null",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "id missing",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": " ",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "id whitespace",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "name missing",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": " ",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "name whitespace",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "status missing",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": " ",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "status whitespace",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C101",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "duplicate id",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ],
+      "extra": "x"
+    },
+    "name": "unknown root field",
+    "valid": false
+  },
+  {
+    "props": {
+      "customers": [
+        {
+          "id": "C101",
+          "name": "ABC Industries",
+          "status": "Active",
+          "location": "Dallas, TX",
+          "summary": "Industrial customer",
+          "extra": "x"
+        },
+        {
+          "id": "C205",
+          "name": "XYZ Systems",
+          "status": "Pending"
+        }
+      ]
+    },
+    "name": "unknown customer field",
+    "valid": false
+  },
+  {
+    "props": {},
+    "name": "missing customers",
+    "valid": false
+  },
+  {
+    "props": null,
+    "name": "null props",
+    "valid": false
+  }
+]

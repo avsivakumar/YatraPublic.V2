@@ -1,0 +1,18 @@
+[
+  {"name":"depth at limit","kind":"depth","count":8,"valid":true},
+  {"name":"depth exceeds limit","kind":"depth","count":9,"valid":false},
+  {"name":"array at limit","kind":"array","count":100,"valid":true},
+  {"name":"array exceeds limit","kind":"array","count":101,"valid":false},
+  {"name":"properties at limit","kind":"properties","count":100,"valid":true},
+  {"name":"properties exceed limit","kind":"properties","count":101,"valid":false},
+  {"name":"property name at limit","kind":"key","count":100,"valid":true},
+  {"name":"property name exceeds limit","kind":"key","count":101,"valid":false},
+  {"name":"string at limit","kind":"string","count":4096,"valid":true},
+  {"name":"string exceeds limit","kind":"string","count":4097,"valid":false},
+  {"name":"nodes at limit","kind":"nodes","count":2048,"valid":true},
+  {"name":"nodes exceed limit","kind":"nodes","count":2049,"valid":false},
+  {"name":"ASCII bytes at limit","kind":"bytes","count":65536,"valid":true},
+  {"name":"ASCII bytes exceed limit","kind":"bytes","count":65537,"valid":false},
+  {"name":"Unicode bytes at limit","kind":"unicode","count":65536,"valid":true},
+  {"name":"Unicode bytes exceed limit","kind":"unicode","count":65537,"valid":false}
+]
